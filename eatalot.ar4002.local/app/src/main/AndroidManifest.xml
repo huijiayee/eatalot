@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cylim.eatalot">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/travelot"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SurveyActivity"
+            android:label="Preference Survey" />
+        <activity
+            android:name=".HomeScreen"
+            android:label="Home Screen" />
+        <activity
+            android:name=".Restaurant"
+            android:label="Restaurant" />
+        <activity
+            android:name=".TripSetting"
+            android:label="Trip Setting" />
+        <activity
+            android:name=".SignUp"
+            android:label="Sign Up" />
+        <activity android:name=".GeneratePlan" />
+        <activity android:name=".DayTrip"></activity>
+    </application>
+
+</manifest>
